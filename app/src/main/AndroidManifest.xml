@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.svw.baserecyclerviewadapterhelper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.svw.baserecyclerviewadapterhelper.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/brvah_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.PullToRefreshUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.AnimationUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.HeaderAndFooterUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.SectionUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.ChooseMultipleItemUseTypeActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.MultipleItemUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.MultipleItemRvAdapterUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.EmptyViewUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.ItemDragAndSwipeUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.ExpandableUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.DataBindingUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.ItemClickActivity"></activity>
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.base.BaseActivity"></activity>
+        <activity
+            android:name="com.svw.baserecyclerviewadapterhelper.HomeActivity"
+            android:launchMode="singleTask"></activity>
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.UpFetchUseActivity" />
+        <activity android:name="com.svw.baserecyclerviewadapterhelper.SectionMultipleItemUseActivity" />
+    </application>
+
+</manifest>
